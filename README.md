@@ -32,6 +32,11 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 mvn io.quarkus:quarkus-maven-plugin:1.13.7.Final:create -DprojectGroupId=evertonsavio.dev -DprojectArtifactId=microprofile-health -Dextensions="health"
 
 ```    
+  
+* Run project  
+```
+mvn quarkus:dev  
+```
 ---
    
 ## microprofile-health project
